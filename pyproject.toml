@@ -1,0 +1,25 @@
+[project]
+name = "ai-agents-google-adk"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Muhammad Ahsan Ayaz",email = "9844254+AhsanAyaz@users.noreply.github.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.9,<3.13.0"
+dependencies = [
+    "google-adk (>=0.5.0,<0.6.0)",
+    "google-generativeai (>=0.8.5,<0.9.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "litellm (>=1.69.3,<2.0.0)",
+    "pydantic (>=2.11.4,<3.0.0)",
+    "google-cloud-aiplatform[adk,agent-engines] (>=1.93.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+[tool.poetry]
+package-mode = false
