@@ -42,7 +42,7 @@ Navigate into each example folder to find specific instructions in its `README.m
 To run any example:
 
 ```bash
-cd <example_folder_name>  # e.g., cd example_01_agent_lifecycle_logging
+cd 7-agents-and-callbacks
 adk web
 ```
 
