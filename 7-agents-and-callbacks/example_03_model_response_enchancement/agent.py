@@ -45,7 +45,7 @@ def after_model_callback_enhance(
         current_text += f"\n\n**Flight Summary Logged:**\nNumber: {flight_details['flight_number']}\nFrom: {flight_details['origin']}\nTo: {flight_details['destination']}\nDate: {flight_details['date']}"
 
     # 2. Add quick links for common topics
-    if "refund policy" in original_text.lower():
+    if "refund polic" in original_text.lower():
         refund_link = (
             "\nFor more details, see our [Refund Policy](https://example.com/refunds)."
         )
